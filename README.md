@@ -9,36 +9,34 @@ Use the files in this repository to start your assignment.
 
 Execute the following once ( **replacing** the url and directory names ):
 
-$ cd my_DSLab_folder/
-
-$ git clone https://git-classes.mst.edu/ _url-for-your-repository_
-
-$ cd _my_cloned_repo_lab0n/_
+	$ cd my_DSLab_folder/
+	$ git clone https://git-classes.mst.edu/ _url-for-your-repository_
+	$ cd _my_cloned_repo_lab0n/_
 
 Complete the post-lab by creating and editing the following files in your repository folder:
-* Source files like .cpp, .h, .hpp
-* Code::Blocks project folder with .cbp and .layout files
+* Source files like `.cpp, .h, .hpp`
+* Code::Blocks project folder with `.cbp` and `.layout` files
 
 
 Do not add:
-* Compiled or generated files like a.out, your executable files, etc.
-* Put the name of these files in a text file named .gitignore
+* Compiled or generated files like `a.out`, your executable files, etc.
+* Put the name of these files in a text file named `.gitignore`
 
 Execute as many times as you want:
 
-$ git status
+	$ git status
 
-$ git diff
+	$ git diff
 
-$ git add *.cpp *.h *.hpp *.txt *.cbp
+	$ git add *.cpp *.h *.hpp *.txt *.cbp
 
-$ git add yourfile.whatever
+	$ git add yourfile.whatever
 
-$ git add SUBDIRECTORY/*
+	$ git add SUBDIRECTORY/*
 
-$ git commit -m "Informative description of the commit"
+	$ git commit -m "Informative description of the commit"
 
-$ git push
+	$ git push
 
 If you see your changes reflected on the git-classes site, you have submitted successfully.
 

@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1697513738 source:/home/jake/2023-FS-304-postlab05-jkln3w/funcs.cpp
+
+1697513738 source:/home/jake/2023-FS-304-postlab05-jkln3w/main.cpp
+	<iostream>
+	"funcs.h"
+	"TrianglePrinter.h"
+
+1697498509 /home/jake/2023-FS-304-postlab05-jkln3w/funcs.h
+
+1697498509 /home/jake/2023-FS-304-postlab05-jkln3w/TrianglePrinter.h
+	<vector>
+	<sstream>
+	<iostream>
+	<cmath>
+
+1697498509 source:/home/jake/2023-FS-304-postlab05-jkln3w/TrianglePrinter.cpp
+	"TrianglePrinter.h"
+
+1697501121 source:/home/jake/2023-FS-304-postlab05-jkln3w/postlab5/main.cpp
+	<iostream>
+

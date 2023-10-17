@@ -13,5 +13,7 @@ int main()
         cout << factorial(i) << endl;
     }
 
+    cout << " n=5 m=2 " << combination(5,2) << endl;
+
     return 0;
 }

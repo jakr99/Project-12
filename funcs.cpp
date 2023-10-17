@@ -10,5 +10,12 @@ unsigned long factorial(unsigned long n)
 
 unsigned long combination(unsigned long n, unsigned long m)
 {
-    //TODO: Implement me!
+    if (n < m){
+        return 0;
+    }
+
+    unsigned long numerator = factorial(n);
+    unsigned long denominator = factorial(m) * factorial(n-m);
+
+    return numerator / denominator;
 }
